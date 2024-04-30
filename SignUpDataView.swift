@@ -10,6 +10,26 @@ import UIKit
 import SnapKit
 
 final class SignUpDataView:  UIView {
+    
+    private enum Constants {
+        case login
+        case signup
+        case username
+        case password
+        case confirmPassword
+        case button
+        var text: String {
+            switch self {
+            case .login: return "Login"
+            case .signup: return "Sign Up /"
+            case .username: return "Username"
+            case .password: return "Password"
+            case .button: return "Sign up"
+            case .confirmPassword: return "Re-enter Password"
+            }
+        }
+    }
+    
     private let imageCircle = UIImageView()
     private let imageFace = UIImageView()
     private let mainLabel = UILabel()
@@ -46,7 +66,7 @@ final class SignUpDataView:  UIView {
     func setupMainLabel() {
         addSubview(mainLabel)
         mainLabel.font = UIFont.systemFont(ofSize: 40, weight: .bold)
-        mainLabel.text = "Sign Up / "
+        mainLabel.text = Constants.signup.text
         mainLabel.textColor = .labelColorDark
         mainLabel.snp.makeConstraints {make in
             make.leading.equalToSuperview().inset(0)
@@ -59,7 +79,7 @@ final class SignUpDataView:  UIView {
     private func setupSwitchViewButton() {
         addSubview(switchViewButton)
         switchViewButton.setTitleColor(.systemGray3, for: .highlighted)
-        switchViewButton.setTitle("Login", for: .normal)
+        switchViewButton.setTitle(Constants.login.text, for: .normal)
         switchViewButton.setTitleColor(.labelColorLight, for: .normal)
         switchViewButton.titleLabel!.font = UIFont.systemFont(ofSize: 20)
         switchViewButton.snp.makeConstraints {make in
@@ -73,7 +93,7 @@ final class SignUpDataView:  UIView {
     private func setupUsernameLabel() {
         addSubview(usernameLabel)
         usernameLabel.font = UIFont.systemFont(ofSize: 20, weight: .regular)
-        usernameLabel.text = "Username"
+        usernameLabel.text = Constants.username.text
         usernameLabel.textColor = .labelColorLight
         usernameLabel.snp.makeConstraints {make in
             make.leading.equalToSuperview().inset(0)
@@ -85,7 +105,7 @@ final class SignUpDataView:  UIView {
     private func setupPasswordLabel() {
         addSubview(passwordLabel)
         passwordLabel.font = UIFont.systemFont(ofSize: 20, weight: .regular)
-        passwordLabel.text = "Password"
+        passwordLabel.text = Constants.password.text
         passwordLabel.textColor = .labelColorLight
         passwordLabel.snp.makeConstraints {make in
             make.leading.equalToSuperview().inset(0)
@@ -119,7 +139,7 @@ final class SignUpDataView:  UIView {
     private func setupConfirmPasswordLabel() {
         addSubview(confirmPasswordLabel)
         confirmPasswordLabel.font = UIFont.systemFont(ofSize: 20, weight: .regular)
-        confirmPasswordLabel.text = "Re-enter Password"
+        confirmPasswordLabel.text = Constants.confirmPassword.text
         confirmPasswordLabel.textColor = .labelColorLight
         confirmPasswordLabel.snp.makeConstraints {make in
             make.leading.equalToSuperview().inset(0)
@@ -151,7 +171,7 @@ final class SignUpDataView:  UIView {
         addSubview(loginButton)
         loginButton.backgroundColor = .button
         loginButton.layer.cornerRadius = 15
-        loginButton.setTitle("Sign up", for: .normal)
+        loginButton.setTitle(Constants.button.text, for: .normal)
         loginButton.titleLabel!.font = UIFont.systemFont(ofSize: 20, weight: .regular)
         loginButton.addTarget(self, action: #selector(onClick), for: .touchUpInside)
         loginButton.addTarget(self, action: #selector(onDown), for: .touchDown)
