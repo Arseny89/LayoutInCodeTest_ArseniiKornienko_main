@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		0E1021F92BDCBA1500002049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1021F82BDCBA1500002049 /* AppDelegate.swift */; };
 		0E1021FB2BDCBA1500002049 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1021FA2BDCBA1500002049 /* SceneDelegate.swift */; };
-		0E1021FD2BDCBA1500002049 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1021FC2BDCBA1500002049 /* LoginView.swift */; };
+		0E1021FD2BDCBA1500002049 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1021FC2BDCBA1500002049 /* LoginController.swift */; };
 		0E1022022BDCBA1600002049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1022012BDCBA1600002049 /* Assets.xcassets */; };
-		0E1022102BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E10220F2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoTests.swift */; };
-		0E10221A2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1022192BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITests.swift */; };
-		0E10221C2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E10221B2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITestsLaunchTests.swift */; };
 		0E1022292BDCCC6000002049 /* LoginDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1022282BDCCC6000002049 /* LoginDataView.swift */; };
-		0E8EA2492BDE2A9B00D1A476 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EA2482BDE2A9B00D1A476 /* SignUpView.swift */; };
+		0E8EA2492BDE2A9B00D1A476 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EA2482BDE2A9B00D1A476 /* SignUpController.swift */; };
 		0E8EA24B2BDE2E4E00D1A476 /* SignUpDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EA24A2BDE2E4E00D1A476 /* SignUpDataView.swift */; };
 		BA13CB07E9359643888E789D /* Pods_LayoutInCodeTest_ArseniiKornienko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D049ED75647FE7BAE4F2D6A7 /* Pods_LayoutInCodeTest_ArseniiKornienko.framework */; };
 /* End PBXBuildFile section */
@@ -41,16 +38,13 @@
 		0E1021F52BDCBA1500002049 /* LayoutInCodeTest_ArseniiKornienko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutInCodeTest_ArseniiKornienko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1021F82BDCBA1500002049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E1021FA2BDCBA1500002049 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E1021FC2BDCBA1500002049 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0E1021FC2BDCBA1500002049 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		0E1022012BDCBA1600002049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E1022062BDCBA1600002049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E10220B2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutInCodeTest_ArseniiKornienkoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E10220F2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutInCodeTest_ArseniiKornienkoTests.swift; sourceTree = "<group>"; };
 		0E1022152BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutInCodeTest_ArseniiKornienkoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E1022192BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutInCodeTest_ArseniiKornienkoUITests.swift; sourceTree = "<group>"; };
-		0E10221B2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutInCodeTest_ArseniiKornienkoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0E1022282BDCCC6000002049 /* LoginDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataView.swift; sourceTree = SOURCE_ROOT; };
-		0E8EA2482BDE2A9B00D1A476 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = SOURCE_ROOT; };
+		0E8EA2482BDE2A9B00D1A476 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = SOURCE_ROOT; };
 		0E8EA24A2BDE2E4E00D1A476 /* SignUpDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpDataView.swift; sourceTree = SOURCE_ROOT; };
 		405A84EB03AFF2BB25A00AEC /* Pods-LayoutInCodeTest_ArseniiKornienko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayoutInCodeTest_ArseniiKornienko.release.xcconfig"; path = "Target Support Files/Pods-LayoutInCodeTest_ArseniiKornienko/Pods-LayoutInCodeTest_ArseniiKornienko.release.xcconfig"; sourceTree = "<group>"; };
 		D049ED75647FE7BAE4F2D6A7 /* Pods_LayoutInCodeTest_ArseniiKornienko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LayoutInCodeTest_ArseniiKornienko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				0E1021F72BDCBA1500002049 /* LayoutInCodeTest_ArseniiKornienko */,
-				0E10220E2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoTests */,
-				0E1022182BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITests */,
 				0E1021F62BDCBA1500002049 /* Products */,
 				29EFEFE9ADDEB486127EA606 /* Pods */,
 				BD2C68EF6414BE62DAC0CDC8 /* Frameworks */,
@@ -110,31 +102,14 @@
 			children = (
 				0E1022282BDCCC6000002049 /* LoginDataView.swift */,
 				0E8EA24A2BDE2E4E00D1A476 /* SignUpDataView.swift */,
-				0E8EA2482BDE2A9B00D1A476 /* SignUpView.swift */,
-				0E1021FC2BDCBA1500002049 /* LoginView.swift */,
+				0E8EA2482BDE2A9B00D1A476 /* SignUpController.swift */,
+				0E1021FC2BDCBA1500002049 /* LoginController.swift */,
 				0E1021F82BDCBA1500002049 /* AppDelegate.swift */,
 				0E1021FA2BDCBA1500002049 /* SceneDelegate.swift */,
 				0E1022012BDCBA1600002049 /* Assets.xcassets */,
 				0E1022062BDCBA1600002049 /* Info.plist */,
 			);
 			path = LayoutInCodeTest_ArseniiKornienko;
-			sourceTree = "<group>";
-		};
-		0E10220E2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoTests */ = {
-			isa = PBXGroup;
-			children = (
-				0E10220F2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoTests.swift */,
-			);
-			path = LayoutInCodeTest_ArseniiKornienkoTests;
-			sourceTree = "<group>";
-		};
-		0E1022182BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0E1022192BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITests.swift */,
-				0E10221B2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITestsLaunchTests.swift */,
-			);
-			path = LayoutInCodeTest_ArseniiKornienkoUITests;
 			sourceTree = "<group>";
 		};
 		29EFEFE9ADDEB486127EA606 /* Pods */ = {
@@ -328,8 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E8EA24B2BDE2E4E00D1A476 /* SignUpDataView.swift in Sources */,
-				0E8EA2492BDE2A9B00D1A476 /* SignUpView.swift in Sources */,
-				0E1021FD2BDCBA1500002049 /* LoginView.swift in Sources */,
+				0E8EA2492BDE2A9B00D1A476 /* SignUpController.swift in Sources */,
+				0E1021FD2BDCBA1500002049 /* LoginController.swift in Sources */,
 				0E1021F92BDCBA1500002049 /* AppDelegate.swift in Sources */,
 				0E1022292BDCCC6000002049 /* LoginDataView.swift in Sources */,
 				0E1021FB2BDCBA1500002049 /* SceneDelegate.swift in Sources */,
@@ -340,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1022102BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E10221A2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITests.swift in Sources */,
-				0E10221C2BDCBA1600002049 /* LayoutInCodeTest_ArseniiKornienkoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
